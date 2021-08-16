@@ -29,7 +29,7 @@ module.exports = (sequelize, dataTypes) => {
         genre_id: dataTypes.BIGINT(10)
     };
     let config = {
-        timestamps: true,
+        timestamps: false,
         createdAt: 'created_at',
         updatedAt: 'updated_at',
         deletedAt: false
